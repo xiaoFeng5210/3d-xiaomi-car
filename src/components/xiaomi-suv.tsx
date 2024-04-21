@@ -7,7 +7,7 @@ const CoolCar = () => {
 	console.log(scene)
 
 	return (
-		<primitive object={scene}/>
+		<primitive scale={[4, 4, 4]} object={scene}/>
 	)
 }
 
