@@ -26,7 +26,7 @@ function App() {
           <XiaomiSuv/>
           <OrbitControls/>
           <Stats/>
-          <axesHelper/>
+          <axesHelper args={[10]}/>
         </Suspense>
       </Canvas>
     </div>
